@@ -1,4 +1,6 @@
+import Business from './components/Business';
 import Hero from './components/Hero';
+import Stats from './components/Stats';
 
 function App() {
   return (
@@ -6,6 +8,8 @@ function App() {
       <header className="text-white">navbar</header>
       <div className=" w-full ">
         <Hero />
+        <Stats />
+        <Business />
       </div>
     </div>
   );

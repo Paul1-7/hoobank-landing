@@ -3,7 +3,7 @@ import GetStarted from './GetStarted';
 
 const Hero = () => {
   return (
-    <main className=" sm:pt-[9.375rem] flex flex-col sm:block">
+    <main className=" sm:pt-[9.375rem] flex flex-col sm:block mb-[6rem]">
       <section>
         <p className="bg-discount-gradient text-dimWhite rounded-[.625rem] sm:text-lg font-normal p-[2px] inline-block pr-2 ">
           <img src={discount} alt="icon of discount" className="h-full inline-block ml-1" />
@@ -23,7 +23,7 @@ const Hero = () => {
         Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine
         annual percentage rates, annual fees.
       </h2>
-      <section className="relative sm:absolute top-0 right-0 flex flex-col w-[100%]  sm:w-[50%]   ">
+      <section className="relative sm:absolute top-0 right-0 flex flex-col w-[100%]  sm:w-[50%] h-[38rem] ">
         <div className="relative w-full">
           <img
             src={ballRobot}

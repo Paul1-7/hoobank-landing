@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
       },
+      fontSize: {
+        '4xl': '40px',
+      },
     },
     screens: {
       xs: '480px',
