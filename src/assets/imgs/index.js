@@ -25,6 +25,8 @@ import people03 from './people03.png';
 import cardRobot1 from './card-robot-1.svg';
 import cardRobot2 from './card-robot-2.svg';
 import cardRobot3 from './card-robot-3.svg';
+import robotHand from './robot-hand.webp';
+import ballRobot from './ball-robot-3.svg';
 
 export {
   airbnb,
@@ -54,4 +56,6 @@ export {
   cardRobot1,
   cardRobot2,
   cardRobot3,
+  robotHand,
+  ballRobot,
 };
