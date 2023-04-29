@@ -124,6 +124,12 @@
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   }
 
+  .grid-clients {
+    @apply gap-x-28 gap-y-10 justify-between w-full items-center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+
   .paragraph {
     @apply font-poppins font-normal text-base leading-[1.9125rem] text-dimWhite;
   }

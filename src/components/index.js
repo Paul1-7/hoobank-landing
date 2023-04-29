@@ -1,8 +1,11 @@
 export { default as Billing } from './Billing';
 export { default as Business } from './Business';
+export { default as Button } from './Button';
+export { default as CTA } from './CTA';
 export { default as CardBusiness } from './CardBusiness';
 export { default as CardFeedback } from './CardFeedback';
 export { default as CardStats } from './CardStats';
+export { default as Clients } from './Clients';
 export { default as CreditCard } from './CreditCard';
 export { default as Feedback } from './Feedback';
 export { default as GetStarted } from './GetStarted';

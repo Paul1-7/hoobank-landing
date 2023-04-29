@@ -1,4 +1,5 @@
 import { card } from '~/assets/imgs';
+import Button from './Button';
 
 const CreditCard = () => {
   return (
@@ -9,6 +10,7 @@ const CreditCard = () => {
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet
           ultrices ac, ametau.
         </p>
+        <Button title="Get Started" />
       </div>
       <div>
         <img src={card} alt="image of billing" className=" w-full" />

@@ -1,5 +1,6 @@
 import { features } from '~/constants';
 import CardBusiness from './CardBusiness';
+import Button from './Button';
 
 const Business = () => {
   return (
@@ -10,7 +11,7 @@ const Business = () => {
           With the right credit card, you can improve your financial life by building credit, earning rewards and saving
           money. But with hundreds of credit cards on the market.
         </p>
-        <button className="bg-blue-gradient p-4 rounded-[.625rem] text-lg">Get Started</button>
+        <Button title="Get Started" />
       </div>
       <ul className="sm:flex-[50%]">
         {features.map(({ id, icon, title, content }) => (
