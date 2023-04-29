@@ -100,6 +100,7 @@ export const stats = [
 export const footerLinks = [
   {
     title: 'Useful Links',
+    id: 'link-useful',
     links: [
       {
         name: 'Content',
@@ -125,6 +126,7 @@ export const footerLinks = [
   },
   {
     title: 'Community',
+    id: 'link-community',
     links: [
       {
         name: 'Help Center',
@@ -150,6 +152,7 @@ export const footerLinks = [
   },
   {
     title: 'Partner',
+    id: 'link-partner',
     links: [
       {
         name: 'Our Partner',
@@ -163,7 +166,7 @@ export const footerLinks = [
   },
 ];
 
-export const socialMedia = [
+export const socialsMedia = [
   {
     id: 'social-media-1',
     icon: instagram,

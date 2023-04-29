@@ -1,4 +1,4 @@
-import { Billing, Business, CTA, Clients, CreditCard, Feedback, Hero, Stats } from './components';
+import { Billing, Business, CTA, Clients, CreditCard, Feedback, Footer, Hero, Stats } from './components';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
         <Clients />
         <CTA />
       </div>
+      <Footer />
     </div>
   );
 }
