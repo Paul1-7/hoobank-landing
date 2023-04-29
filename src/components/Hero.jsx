@@ -3,9 +3,9 @@ import GetStarted from './GetStarted';
 
 const Hero = () => {
   return (
-    <main className=" sm:pt-[9.375rem] flex flex-col sm:block mb-[6rem]">
+    <main className=" sm:pt-[9.375rem] flex flex-col sm:block mb-[8rem]">
       <section>
-        <p className="bg-discount-gradient text-dimWhite rounded-[.625rem] sm:text-lg font-normal p-[2px] inline-block pr-2 ">
+        <p className="bg-discount-gradient box-shadow text-dimWhite rounded-[.625rem] sm:text-lg font-normal p-[2px] inline-block pr-2 ">
           <img src={discount} alt="icon of discount" className="h-full inline-block ml-1" />
           <span>
             <span className="text-white">20% </span>

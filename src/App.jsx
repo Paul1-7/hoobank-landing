@@ -1,6 +1,4 @@
-import Business from './components/Business';
-import Hero from './components/Hero';
-import Stats from './components/Stats';
+import { Billing, Business, CreditCard, Feedback, Hero, Stats } from './components';
 
 function App() {
   return (
@@ -10,6 +8,9 @@ function App() {
         <Hero />
         <Stats />
         <Business />
+        <Billing />
+        <CreditCard />
+        <Feedback />
       </div>
     </div>
   );
