@@ -3,9 +3,9 @@ import GetStarted from './GetStarted';
 
 const Hero = () => {
   return (
-    <main className=" sm:pt-[9.375rem] flex flex-col sm:block mb-[8rem]">
-      <section>
-        <p className="bg-discount-gradient box-shadow text-dimWhite rounded-[.625rem] sm:text-lg font-normal p-[2px] inline-block pr-2 ">
+    <main className="  ss:pt-8 sm:pt-20 md:pt-16 lg:pt-[9.375rem] flex flex-col sm:block mb-[8rem]">
+      <section className="mb-4 sm:mb-0">
+        <p className="bg-discount-gradient box-shadow text-dimWhite rounded-[.625rem] sm:text-lg font-normal p-[2px] inline-block pr-2 mb-4 ">
           <img src={discount} alt="icon of discount" className="h-full inline-block ml-1" />
           <span>
             <span className="text-white">20% </span>
@@ -23,7 +23,7 @@ const Hero = () => {
         Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine
         annual percentage rates, annual fees.
       </h2>
-      <section className="relative sm:absolute top-0 right-0 flex flex-col w-[100%]  sm:w-[50%] h-[38rem] ">
+      <section className="relative sm:absolute top-20 right-0 flex flex-col w-[100%]  sm:w-[50%] h-[38rem] ">
         <div className="relative w-full">
           <img
             src={ballRobot}

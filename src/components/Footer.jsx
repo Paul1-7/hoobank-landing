@@ -1,4 +1,3 @@
-import React from 'react';
 import { logo } from '~/assets/imgs';
 import { footerLinks, socialsMedia } from '~/constants';
 import FooterLinks from './FooterLinks';
@@ -6,12 +5,12 @@ import FooterLinks from './FooterLinks';
 const Footer = () => {
   return (
     <footer>
-      <section className="sm:flex  mb-5">
+      <section className="sm:flex gap-8 mb-5">
         <div className="flex-[40%]">
           <img src={logo} alt="logo of hoobank" className="mb-8" />
           <p className="paragraph pb-4">A new way to make the payments easy, reliable and secure.</p>
         </div>
-        <div className="flex-[60%] flex flex-wrap gap-8  sm:justify-between">
+        <div className="flex-[60%] flex flex-wrap gap-1  ss:justify-between">
           {footerLinks.map((footerLink) => (
             <FooterLinks data={footerLink} key={footerLink.id} />
           ))}

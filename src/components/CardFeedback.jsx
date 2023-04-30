@@ -4,7 +4,7 @@ import { quotes } from '~/assets/imgs';
 const CardFeedback = ({ data }) => {
   const { content, name, title, img } = data;
   return (
-    <div className="flex flex-col gap-8 text-white p-10 rounded-3xl feedback-card ">
+    <div className="flex flex-col gap-8 text-white p-10 rounded-3xl feedback-card justify-between ">
       <img src={quotes} alt="icon of quotes" className="w-10" />
       <p className="paragraph">{content}</p>
       <div className="flex gap-4 items-center">
