@@ -2,7 +2,12 @@ import { apple, bill, google } from '~/assets/imgs';
 
 const Billing = () => {
   return (
-    <section className={'flex relative flex-col-reverse sm:flex-row sm:gap-24  pb-[7rem] flex-grow items-center'}>
+    <section
+      className={
+        'flex relative flex-col-reverse sm:flex-row sm:gap-24  pb-[7rem] flex-grow items-center scroll-trigger hidden-element'
+      }
+      data-name-target="billing"
+    >
       <div>
         <img src={bill} alt="image of billing" className=" w-full" />
       </div>

@@ -133,4 +133,43 @@
   .paragraph {
     @apply font-poppins font-normal text-base leading-[1.9125rem] text-dimWhite;
   }
+
+  .slide-card-robot {
+    animation: slide-card-robot 3.5s ease-in-out infinite alternate-reverse;
+    animation-delay: var(--delay-card-robot);
+  }
+
+  @keyframes slide-card-robot {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-30px);
+    }
+  }
+
+  .rotate-ball-robot {
+    animation: rotate-ball-robot var(--time-ball-robot) ease-in-out infinite forwards;
+  }
+
+  @keyframes rotate-ball-robot {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .hidden-element {
+    opacity: 0;
+    filter: blur(0.3rem);
+    transition: opacity, filter 0.4s ease-in-out;
+  }
+
+  .fade {
+    opacity: 1;
+    filter: blur(0);
+  }
 }

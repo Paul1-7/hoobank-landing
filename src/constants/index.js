@@ -207,3 +207,27 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const animationsScroll = {
+  stats: {
+    className: 'fade',
+  },
+  title: {
+    className: 'fade',
+  },
+  business: {
+    className: 'fade',
+  },
+  billing: {
+    className: 'fade',
+  },
+  creditCard: {
+    className: 'fade',
+  },
+  feedback: {
+    className: 'fade',
+  },
+  clients: {
+    className: 'fade',
+  },
+};
