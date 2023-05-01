@@ -17,9 +17,6 @@ const Billing = () => {
           <img src={google} alt="logo of the play store" />
         </div>
       </div>
-      <div className="w-[30rem] h-[37.5rem] absolute -left-[31.25rem] ss:-left-[35rem] white__gradient"></div>
-      <div className="w-96 h-[37.5rem] absolute -left-[31.25rem] ss:-left-[35rem] blue__gradient"></div>
-      <div className="w-80 h-[37.5rem] absolute -left-[31.25rem] ss:-left-[35rem] pink__gradient"></div>
     </section>
   );
 };

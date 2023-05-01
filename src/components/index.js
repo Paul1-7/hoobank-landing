@@ -12,5 +12,6 @@ export { default as Footer } from './Footer';
 export { default as FooterLinks } from './FooterLinks';
 export { default as GetStarted } from './GetStarted';
 export { default as Hero } from './Hero';
+export { default as LightBgBall } from './LightBgBall';
 export { default as Navbar } from './Navbar';
 export { default as Stats } from './Stats';
