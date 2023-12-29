@@ -13,10 +13,6 @@
 <img src="https://res.cloudinary.com/paul1-7/image/upload/v1703887741/portfolio/foddimbv92deytcfxbfh.webp" alt="project-screenshot" width="1528" height="784">
 
   
-  
-<h2>🧐 Features</h2>
-
-Here're some of the project's best features:
 
 <h2>🛠️ Installation Steps:</h2>
 
@@ -34,7 +30,3 @@ Technologies used in the project:
 
 *   React
 *   TailwindCSS
-
-<h2>💖Like my work?</h2>
-
-Puede revisar el backend
